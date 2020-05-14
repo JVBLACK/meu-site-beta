@@ -22,7 +22,7 @@ a:hover{text-decoration:underline;
     padding:10px 20px;display:block
 }
 .img-portfolio{
-    height:180px;width:180px;}
+    height:180px;width:180px;color:white;}
 /*se a tela tiver pelo menos 400px vai carregar estes estilos */  
 
 @media (min-width: 400px) {
@@ -34,3 +34,12 @@ a:hover{text-decoration:underline;
 @media (min-width: 400px) {
     .img-portfolio{width: 250px;}
    }
+@media (min-width: 520px) {
+    .img-portfolio{width: 500px;}
+   }
+@media (min-width: 520px) {
+    .img-portfolio{height: 300px;}
+   }
+.portifolio{color:white}
+li{list-style: none;color: white}
+figcaption{color:white}
